@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="author" content="mubeen">
+    <meta name="keywords" content="temp, Software Developer">
+    <meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>customer_care_feedback</title>
+	
+	<link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css">
+
+	<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+	<!-- fonts -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;0,800;0,900;1,600;1,700&family=Roboto:wght@300;400;900&display=swap" rel="stylesheet"> 
+
+	<link rel="stylesheet" href="css/style.css">
+	<!-- title img -->
+	<link rel="icon" href="images/title-logo.png" type="image/gif" sizes="16x16">
+
+</head>
+<body>
+	<div class="wrapper">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="well">
+						<i class="fas fa-headphones-alt"></i>
+						<h1>Customer Care Feedback</h1>
+					</div>
+					<div class="text-block text-center py-5">
+						<h4>
+							You're almost done!
+						</h4>
+						<p>Help us improve our service by answering a few questions</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col">
+					<form action="" method="post" class="option-detail">
+						<div class="option">
+							<h4 class="option-imp">How satisfied are with the Care agent?</h4>
+							<div class="custom-control custom-radio bg-select my-1">
+								<input type="radio" checked id="customRadio1" name="customRadio" class="custom-control-input">
+								<label class="custom-control-label" for="customRadio1">Very satisfied</label>
+							</div>
+							<div class="custom-control custom-radio bg-select my-1">
+								<input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+								<label class="custom-control-label" for="customRadio2">Satisfied</label>
+							</div>
+							<div class="custom-control custom-radio bg-select my-1">
+								<input type="radio" id="customRadio3" name="customRadio" class="custom-control-input">
+								<label class="custom-control-label" for="customRadio3">Neutral</label>
+							</div>
+							<div class="custom-control active custom-radio bg-select my-1 ">
+								<input type="radio" id="customRadio4" name="customRadio" class="custom-control-input">
+								<label class="custom-control-label" for="customRadio4">Dissatisfied</label>
+							</div>
+							<div class="custom-control custom-radio bg-select my-1">
+								<input type="radio" id="customRadio5" name="customRadio" class="custom-control-input">
+								<label class="custom-control-label" for="customRadio5">Very dissatisfied</label>
+							</div>
+						</div>
+						<div class="option">
+							<h4 class="option-imp">Was your issue resolved?</h4>
+							<div class="custom-control custom-radio bg-select my-1">
+								<input type="radio" checked id="customRadio10" name="customRadio" class="custom-control-input">
+								<label class="custom-control-label" for="customRadio10">Yes, on the first time i contacted careem care</label>
+							</div>
+							<div class="custom-control custom-radio bg-select my-1">
+								<input type="radio" id="customRadio20" name="customRadio" class="custom-control-input">
+								<label class="custom-control-label" for="customRadio20">Yes, but i had to contact several times</label>
+							</div>
+							<div class="custom-control custom-radio bg-select my-1">
+								<input type="radio" id="customRadio30" name="customRadio" class="custom-control-input">
+								<label class="custom-control-label" for="customRadio30">Can't decide waiting for a follow up</label>
+							</div>
+							<div class="custom-control active custom-radio bg-select my-1">
+								<input type="radio" id="customRadio40" name="customRadio" class="custom-control-input">
+								<label class="custom-control-label" for="customRadio40">No, not resloved</label>
+							</div>
+						</div>
+						<div class="option">
+							<h4>Finally, could you write down all the resons behind your ratings?</h4>
+							<textarea class="form-control my-1" id="exampleFormControlTextarea1" rows="3"></textarea>
+						</div>
+						<button class="btn btn-secondary" type="button">Finish</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="node_modules/jquery/dist/jquery.min.js"></script>
+	<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="js/custom.js"></script>
+</body>
+</html>
